@@ -60,6 +60,14 @@ body {
   opacity: 0.75;
 }
 
+.Blessing {
+  width: 100%;
+  align-self: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.2em;
+}
+
 .stage-container {
   overflow: hidden;
   box-sizing: initial;
