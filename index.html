@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>
-			烟花模拟器
+			给姐姐放烟花
 		</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<meta name="mobile-web-app-capable" content="yes">
@@ -51,10 +51,10 @@
 		<div class="container">
 			<div class="loading-init">
 				<div class="loading-init__header">
-					加载中
+					加载中-进入后可设置烟花参数
 				</div>
 				<div class="loading-init__status">
-					正在装配烟花
+					正在装配烟花-进入后可设置烟花参数
 				</div>
 			</div>
 			<div class="stage-container remove">
@@ -86,6 +86,19 @@
 				</div>
 				<div class="menu hide">
 					<div class="menu__inner-wrap">
+						<div class="credits">
+							<p class="copyright">
+								烟花好看不~
+								<br>
+								<script>
+									var mydate = new Date();
+									document.writeln("COPYRIGHT&nbsp;&copy;&nbsp;" + mydate.getFullYear() + '&nbsp;<a target="_blank" href="https://infrost.github.io/fireworksforycn/">Kevin</a><br />ALL&nbsp;RIGHTS&nbsp;RESERVED');
+								</script>
+								<br>
+								希望你所有的不幸 都可以在声声鞭炮中结束
+								<br>
+							</p>
+						</div>
 						<div class="btn btn--bright close-menu-btn">
 							<svg fill="white" width="24" height="24">
 								<use href="#icon-close" xlink:href="#icon-close">
@@ -165,27 +178,7 @@
 								<input class="long-exposure" type="checkbox" />
 							</div>
 						</form>
-						<div class="credits">
-							<p class="copyright">
-								您的IP：
-								<script src="https://pv.sohu.com/cityjson?ie=utf-8">
-								</script>
-								<script type="text/javascript">
-									document.write(returnCitySN["cip"])
-								</script>
-								<br>
-								<script>
-									var mydate = new Date();
-									document.writeln("COPYRIGHT&nbsp;&copy;&nbsp;2021 - " + mydate.getFullYear() + '&nbsp;<a target="_blank" href="http://www.nianbroken.top/">碎念_NIAN</a><br />ALL&nbsp;RIGHTS&nbsp;RESERVED');
-								</script>
-								<br>
-								希望你所有的不幸 都可以在本站的声声鞭炮中结束
-								<br>
-								<script type="text/javascript">
-									document.write(unescape("%3Cspan id='cnzz_stat_icon_1280819439'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1280819439' type='text/javascript'%3E%3C/script%3E"));
-								</script>
-							</p>
-						</div>
+
 					</div>
 				</div>
 			</div>
